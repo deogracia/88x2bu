@@ -1,0 +1,12 @@
+Source: rtl88x2bu-dkms
+Section: misc
+Priority: optional
+Maintainer: Dynamic Kernel Modules Support Team <pkg-dkms-maint@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7), dkms
+Standards-Version: 3.8.1
+
+Package: rtl88x2bu-dkms
+Architecture: amd64
+Provides: rtl88x2bu-modules (= 5.13.1)
+Depends: dkms (>= 1.95), ${misc:Depends}
+Description: rtl88x2bu driver in DKMS format.
