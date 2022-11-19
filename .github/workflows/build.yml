@@ -3,6 +3,8 @@
 name: Build Debian package
 
 on:
+  push:
+    branches: *
 
 jobs:
 
